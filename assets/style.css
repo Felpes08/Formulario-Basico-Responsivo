@@ -1,0 +1,103 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+
+form {
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+form fieldset {
+    padding: 20px 40px;
+    border: 1px solid #ccc;
+    
+}
+
+form legend {
+    text-align: left;
+    font-size: 17px;
+    color: rgb(130, 130, 130) ;
+    font-size: 20px;
+}
+
+form input[type=text] {
+    background-color:rgb(172, 164, 163) ;
+    display: inline-block;
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px 30px;
+}
+
+form input[type=text]:focus, fomr select:focus {
+    outline: 0;
+    background-color:rgb(212, 201, 200);
+}
+
+form select {
+    width:calc(80% + 26px);
+    margin-top: 30px;
+    padding: 10px 13px;
+    display: inline-block;
+    border: 1px solid;
+}
+
+form select option:nth-last-of-type(3){
+    color: red;
+}
+
+form select option[disabled]{
+    color: cyan;
+}
+/* Caso queira colocar a terceira opção em um estilo diferente
+form h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 20px;
+}
+*/
+.input {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px ;
+}
+.input span {
+    margin-left: 13px;
+    font-size: 16px ;
+    color: rgb(130, 130, 130);
+}
+
+form textarea {
+    resize: none;
+   margin-top: 30px;
+   width: 80%;
+   padding: 10px 13px;
+   border: 1px solid #ccc;
+   height: 140px;
+}
+form textarea:focus {
+    outline: 0;
+}
+
+form input[type=submit]{
+    margin-top: 30px;
+    border: 0;
+    font-size: 16px;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    border: 2px solid rgb(130, 130, 130);
+    background-color: rgb(140, 140, 140);
+    color: white;
+}
+
+form input[type=submit]:hover{
+    background-color:#787A91 ;
+}

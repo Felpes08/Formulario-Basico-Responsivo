@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+      <fieldset>
+          <!--INDTRODUZINDO DADOS-->
+          <legend>Meu Grupo do formulário</legend>
+          <div><input type="text" name="nome" placeholder="Digite Seu nome"></div>
+          <div><input type="text" name="email" placeholder="Digite seu Email"></div>
+          <div>
+              <select name="lista">
+                  <option disabled selected>Qual sua idade?</option>
+                  <option>20</option>
+                  <option>25+</option>
+                  <option>40+</option>
+              </select>
+          </div>
+          <!--SELEÇÃO DE CIDADES-->
+          <h2>Qual sua cidade?</h2>
+          <div class="input">
+          <div>
+              <input type="radio" name="cidade" value=""/> <span>Florianópolis</span>
+          </div>
+          <div>
+              <input type="radio" name="cidade" value=""> <span>São Paulo</span>
+          </div>
+          <div>
+            <input type="radio" name="cidade" value=""> <span>Rio de Janeiro</span>
+        </div>
+        </div>
+        <!--SELEÇÃO DE COMIDAS-->
+        <h2>O que você gosta de comer</h2>
+          <div class="input">
+          <div>
+              <input type="checkbox" name="cidade" value=""/> <span>Fruta</span>
+          </div>
+          <div>
+              <input type="checkbox" name="cidade" value=""> <span>Fast Food</span>
+          </div>
+          <div>
+            <input type="checkbox" name="cidade" value=""> <span>Salada</span>
+        </div>
+        </div>
+        <div>
+            <textarea placeholder="Possui Alguma observação" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit" name="acao" value="enviar">
+        </div>
+      </fieldset>  
+    </form>
+</body>
+</html>
